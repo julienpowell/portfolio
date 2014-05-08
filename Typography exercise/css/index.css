@@ -1,0 +1,94 @@
+body {
+  min-width: none;
+  max-width: none;
+  min-height: nonepx;
+  max-height: none;
+  background-color: rgb(255, 255, 255);
+  font: normal 1.75em/1.5 ChaparralPro-Regular;
+  color: rgb(0,0,0);
+  -webkit-transform: none;
+  -webkit-transition: none;
+  -webkit-filter: none;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.text {
+  width: 63.7016574586%;
+  min-width: none;
+  max-width: none;
+  min-height: 133px;
+  max-height: none;
+  margin-left: 26.2430939227%;
+  color: rgb(0,0,0);
+  -webkit-transform: none;
+  -webkit-transition: none;
+  -webkit-filter: none;
+}
+
+._text {
+  margin-top: 109px;
+  font-size: 1.214em;
+}
+
+.text-2 {
+  font-size: 1em;
+}
+
+@media(max-width: 1310px) {
+  .text {
+    min-height: nonepx;
+  }
+
+  ._text {
+    margin-top: 119px;
+    font-weight: Book;
+  }
+
+  .text-2 {
+    font-size: 0.929em;
+  }
+
+}
+@media(max-width: 810px) {
+  body {
+    font-size: 1.75em;
+  }
+
+  .text {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  ._text {
+    margin-top: 106px;
+    font-size: 1em;
+  }
+
+  .text-2 {
+    font-size: 0.857em;
+  }
+
+}
+@media(max-width: 500px) {
+  .text-1 p {
+    margin-bottom: 1.3em;
+  }
+
+  .text-2 p {
+    margin-bottom: 1.4em;
+  }
+
+  ._text {
+    font-size: 0.857em;
+    font-weight: Regular;
+    word-spacing: -1px;
+  }
+
+  .text-2 {
+    font-size: 0.714em;
+  }
+
+}
